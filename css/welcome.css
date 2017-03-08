@@ -74,7 +74,6 @@ a:focus {
 }
 
 .navbar-custom .navbar-toggle:focus,
-
 .navbar-custom .navbar-toggle:active {
   outline: none;
 }
@@ -171,7 +170,7 @@ a:focus {
 @media (min-width: 768px) {
   .intro {
     height: 100%;
-    padding: 0;
+    padding: 0; 
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
