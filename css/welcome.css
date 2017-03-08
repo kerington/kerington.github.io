@@ -1,5 +1,5 @@
-body {
-
+body, html {
+	height: 100%;
 }
 
 ul {
@@ -20,7 +20,7 @@ a {
 
 .parallax {
 	background-image: url("img/intro-bg.jpg")
-	height: 500px;
+	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
