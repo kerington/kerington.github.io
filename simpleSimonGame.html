@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simon Game</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+        <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/simpleSimonGame.css">
+
+   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+</head>
+<body>
+
+    <main class="container">
+        <h1 id="textTitle">Simoné Says</h1> <!--Changed the title to be more feminie :) Props to Val for the idea hehe-->
+
+        <div class="gameContainer noSelect">
+        <!--Marquee creates the marquee style, and "scrollamount" makes the marquee move faster/slower-->
+        <marquee class="gameOver" scrollamount="20">GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! GAME OVER! </marquee> <!--I'm using so many "GAME OVER!"'s so that it'll keep repeating without having such a long break between the end and restarting-->
+          <div id="buttonGreen" class="fourButtons"></div>
+          <div id="buttonRed" class="fourButtons"></div>
+          <div id="buttonYellow" class="fourButtons"></div>
+          <div id="buttonBlue" class="fourButtons"></div>
+          <div id="center">
+            <div id="countBox">
+              <div id="countDisplay">
+                <div id="displayText">
+                </div>
+              </div>
+              <div id="countText">Level</div>
+            </div>
+            <div id="startBox">
+              <div id="startButton"></div>
+              <div id="startText">Start</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- jQuery Version 2.2.4 -->
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Custom JavaScript -->
+    <script type="text/javascript" src="/js/simpleSimonGame.js"></script>
+</body>
+</html>

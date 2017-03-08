@@ -1,0 +1,143 @@
+body {
+    background-image: url("/img/symphony.png");
+    background-color: #6A8BA0;
+}
+
+.gameOver {
+    position: absolute;
+    font-size: 150px;
+    font-weight: bold;
+    top: -37%;
+    left: -96%;
+    width: 1282px;
+    height: 243px;
+    z-index: 10;
+    font-family: 'Pacifico', cursive;
+    color: #7A4944;
+    visibility: hidden;
+}
+
+.gameContainer {
+    position: relative;
+    border-radius: 80%;
+    width: 440px;
+    height: 440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.fourButtons {
+    position: absolute;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    opacity: .6;
+}
+
+.activated {
+    opacity: .5;
+}
+
+#buttonGreen {
+    background-color: #81AA8A;
+    border-radius: 100% 0 0 0; /*Creating the curve on the outside of the colored buttons*/
+    top: 0; 
+    left: 0; /*Keeping the buttons in place and not allowing them to become distorted*/
+}
+
+#buttonRed {
+    background-color: #DB847A;
+    border-radius: 0 100% 0 0 ;
+    top: 0;
+    right: 0;
+}
+
+#buttonYellow {
+    background-color: #F2E15E;
+    border-radius: 0 0 0 100%;
+    bottom: 0;
+    left: 0;
+}
+
+#buttonBlue {
+    background-color: #5C4B5E;
+    border-radius: 0 0 100% 0 ;
+    bottom: 0;
+    right: 0;
+}
+
+#center {
+    position: absolute;
+    background-image: url(/img/symphony.png);
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    top: 130px;
+    left: 130px;
+}
+
+#textTitle {
+    height: 80px;
+    line-height: 90px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 110px;
+    color: #7F97A5;
+
+}
+
+#countBox {
+    display: inline-block;
+    height: 50px;
+    width: 70px;
+}
+
+#countDisplay {
+    background-color: #C0D0D8;
+    border-radius: 50%;
+    border: solid 3px #C0D0D8;
+    margin: 50px 10px 10px 27px;
+    width: 73%;
+    height: 92%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+#countText {
+    height: 40%;
+    margin: -7px 6px 0px 28px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    color: #7F97A5;
+}
+
+#startBox {
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+}
+
+#startButton {
+    background-color: #C0D0D8;
+    border-radius: 50%;
+    border: solid 3px #C0D0D8;
+    margin: 50px 46px 10px 24px;
+    width: 73%;
+    height: 92%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+#startText {
+    margin: -6px 6px 0px 26px;
+    height: 30%;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    text-align: center;
+    color: #7F97A5;
+}
