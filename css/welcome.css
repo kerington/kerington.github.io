@@ -17,3 +17,12 @@ a {
 	display: block;
 	padding: 8px;
 }
+
+.parallax {
+	background-image: url("img/intro-bg.jpg")
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
