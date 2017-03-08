@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konami Code</title>
+		<link rel="stylesheet" href="/css/konamiStylesheet.css">
+
+
+</head>
+<body>
+    <h1>Konami Code:</h1>
+
+    <h6>↑↑↓↓←→←→ab</h6>
+
+	 <script
+	  src="http://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	  crossorigin="anonymous"></script>
+
+    <script>
+        "use strict";
+
+        if ( window.addEventListener ) {
+        	var state = 0, konami = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+        	window.addEventListener("keydown", function(e) {
+        		if (e.keyCode == konami[state] ) state++;
+        		else state = 0;
+        		if ( state == 10 )
+        			window.location = "https://s-media-cache-ak0.pinimg.com/originals/e7/0e/12/e70e128de0cb4ed1066ba137409b09d8.jpg"
+        	}, true);
+
+
+        	}
+
+        // $(document).keyup(function(event){
+        //     console.log(event.keyCode);
+        // });
+
+
+
+
+    </script>
+</body>
+</html>
+
+<!-- 38, 38, 40, 40, 37, 39, 37, 39, 66, 65 -->

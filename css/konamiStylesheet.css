@@ -1,0 +1,17 @@
+body {
+	background-color: #82122c;
+	color:#FFF;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Barrio";
+	font-size: 6em;
+	border-bottom: 2px solid #FFF;
+}
+
+
+h6 {
+	font-family: "Barrio";
+	font-size: 3em;
+}
