@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <title>Weather Map</title>
+     <!-- Bootstrap Core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!--CUSTOM STYLESHEET-->
+	<link rel="stylesheet" href="css/weather_map.css">
+
+</head>
+<body>
+  <main class="container">
+		<h1>Weather Map</h1>
+		<div id="weather"></div>
+		<div id="map-canvas"></div>
+		
+   </main>
+
+	 <!-- jQuery Version 2.2.4 -->
+   <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+   <!-- Bootstrap Core JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--MY CODE-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo_TneF5gsOWvJoUxbOX877lF9GF8d9PE"></script>
+	<script type="text/javascript" src="/js/weather_map.js"></script>
+
+<!--LAT AND LNG ENTRY FIELDS-->
+		<br>
+		<label for="latitude">Latitude:</label>
+				<input type="text" name="latitude" id="latitude" placeholder="Enter Latitude Here" required>
+		<label for="longitude">Longitude:</label>
+				<input type="text" name="longitude" id="longitude" placeholder="Enter Longitude Here" required>
+		<br><button id= "search">Search</button>
+
+</body>
+</html>
+
+<!-- //Create input boxes for "Latitude" and "Longitude" and a
+//<button> that will take the values from those inputs and
+//feed them into your API request. Use Google Maps to find
+//the coordinates for different places around the world and
+//test this out. -->
+
+<!-- // Go back to your Google Maps API exercise.
+// Recreate the map below your 3 day forecast.
+// Read through the documentation for the Google
+// Maps API and figure out how to allow the user
+// to drop a pin on any place on the map. Once
+// the user drops a pin, grab its coordinates
+// and feed those into your OpenWeatherMap API.
+// Update the three day forecast with the
+// information from those coordinates (you 
+// should also get rid of your input boxes at this point).
+
+//add some input fields and some kind of a button that you are going to specify so that when you click the btuton, the event triggered is gonna take the.val from lat and .val from long and will pass it into our "getWeather" function (might be named differently) b/c this will be called when you click that button. Then uncommon lat and long
+ -->
