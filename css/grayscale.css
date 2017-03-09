@@ -17,7 +17,14 @@ h1 {
   color: #9e132e;
   letter-spacing: 1px;
 }
-h2,
+h2 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color:#FCEFBD;
+  letter-spacing: 1px;
+}
 h3,
 h4,
 h5,
@@ -139,10 +146,11 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
-  color: #9e132e;
+  color: #DDFFFB;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  color: #FCEFBD;
 }
 @media (min-width: 768px) {
   .intro {
@@ -151,10 +159,11 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
-    color: #9e132e;
+    color: #DDFFFB;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
+    color: #FCEFBD;
   }
 }
 .btn-circle {
@@ -227,7 +236,7 @@ a:focus {
 .download-section {
   width: 100%;
   padding: 50px 0;
-  color: #333;
+  color: #DDFFFB;
   background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -262,16 +271,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-    border: 2px solid #BA4A4A;
-    color: #BA4A4A;
+    border: 2px solid #A6102E;
+    color: #A6102E;
     background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 2px solid #5F252D;
+  border: 2px solid #A6102E;
   outline: none;
   color: black;
-  background-color: #5F252D;
+  background-color: #A6102E;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -316,7 +325,4 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
-}
-.potfolio {
-  color: black;
 }
