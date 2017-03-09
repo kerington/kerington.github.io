@@ -56,7 +56,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #175A53;
+  color: #DDFFFB;
 }
 .light {
   font-weight: 400;
@@ -276,6 +276,7 @@ a:focus {
 .btn-default {
     border: 2px solid #A6102E;
     color: #A6102E;
+    font-weight: bold;
     background-color: transparent;
 }
 .btn-default:hover,
@@ -283,6 +284,7 @@ a:focus {
   border: 2px solid #A6102E;
   outline: none;
   color: black;
+  font-weight: bold;
   background-color: #A6102E;
 }
 ul.banner-social-buttons {
