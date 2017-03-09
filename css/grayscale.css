@@ -262,16 +262,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 2px solid #82212E;
-  color: #82212E;
-  background-color: transparent;
+    border: 2px solid #BA4A4A;
+    color: #BA4A4A;
+    background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 2px solid #175A53;
+  border: 2px solid #5F252D;
   outline: none;
   color: black;
-  background-color: #175A53;
+  background-color: #5F252D;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -316,4 +316,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+.potfolio {
+  color: black;
 }
