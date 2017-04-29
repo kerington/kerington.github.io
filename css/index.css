@@ -1,0 +1,255 @@
+.header {
+  display: table;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+  background: url(/img/redFlower.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8em;
+  line-height: 1.5;
+  color: #ccc;
+  background-color: black;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.brand-heading {
+    font-size: 8em;
+    color: #30483A;
+}
+
+.intro-text {
+    font-size: 26px;
+    color: #E5DFAE;
+    margin-top: -10px;
+}
+
+#about {
+    padding-top: 50px;
+    text-align: center;
+    height: 0 auto;
+}
+
+.portfolio {
+  font-size: 3em;
+}
+
+#contact {
+
+}
+
+h1 {
+  margin: -80px 0 35px;
+  text-transform: uppercase;
+  font-family: 'Modak', cursive;
+  color: #089E8D;
+  letter-spacing: 1px;
+}
+
+h2 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: 'Modak', cursive;
+  font-size: 3.5em;
+  font-weight: 300px;
+  color: #91192C;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+a {
+  color: #E5DFAE;
+  /*-webkit-transition: all 0.2s ease-in-out;*/
+  /*-moz-transition: all 0.2s ease-in-out;*/
+  /*transition: all 0.2s ease-in-out;*/
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #DDFFFB;
+}
+
+.nav {
+  background-color: black;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  line-height: 30px;
+  height: 30px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav a:hover {
+  color: black; /*change nav bar TEXT color when hovered*/
+  outline: none;
+}
+ 
+.nav a.active {
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 35px;
+    line-height: 45px;
+    font-size: 1em;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: .5px;
+  }
+
+/*HEADER SECTION*/
+.header {
+  display: table;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+  background: url(/img/redFlower.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*ABOUT SECTION*/
+.about-section {
+  width: 100%;
+  height: 440px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #ccc;
+  text-align: center;
+  background-color: black;
+  background-size: cover;
+}
+
+/*PORTFOLIO SECTION*/
+.portfolio-section {
+  width: 100%;
+  height: 550px;
+  padding: 20px 58% 0 0;
+  margin-bottom: 100px;
+  color: #E5DFAE;
+  text-align: center;
+  background: url(/img/whiteFlower1.jpg) no-repeat center center scroll;
+  background-color: black;
+  background-size: cover;
+}
+
+/*CONTACT SECTION*/
+.contact-section {
+  width: 100%
+}
+
+/*FOOTER SECTION*/
+.footer-section {
+  color: #555;
+}
+
+/*EDIT BUTTONS*/
+.btn {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+}
+
+.btn-default {
+    border: 2px solid #30483A;
+    color: #30483A;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  border: 2px solid #30483A;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  background-color: #30483A;
+}
+
+.projects {
+  text-align: center;
+}
+
