@@ -1,7 +1,25 @@
+.header {
+  display: table;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+  background: url(/img/redFlower.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8em;
+  line-height: 1.5;
   color: #ccc;
   background-color: black;
 }
@@ -12,19 +30,20 @@ html {
 }
 
 .brand-heading {
-    font-size: 100px;
+    font-size: 8em;
     color: #30483A;
 }
 
 .intro-text {
     font-size: 26px;
     color: #E5DFAE;
+    margin-top: -10px;
 }
 
 #about {
     padding-top: 50px;
     text-align: center;
-    height: 750px;
+    height: 0 auto;
 }
 
 .portfolio {
@@ -36,10 +55,9 @@ html {
 }
 
 h1 {
-  margin: 0 0 35px;
+  margin: -80px 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Modak', cursive;
   color: #089E8D;
   letter-spacing: 1px;
 }
@@ -47,8 +65,9 @@ h1 {
 h2 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Modak', cursive;
+  font-size: 3.5em;
+  font-weight: 300px;
   color: #91192C;
   letter-spacing: 1px;
   padding-top: 20px;
@@ -60,7 +79,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -97,8 +116,8 @@ a:focus {
   margin-top: -20px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-size: 1.1em;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav ul {
@@ -108,7 +127,7 @@ a:focus {
   margin: 0;
 }
 .nav li {
-  font-family: 'Lara', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
   line-height: 30px;
   height: 30px;
@@ -149,10 +168,6 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: .5px;
-    /*background: transparent;*/
-    /*-webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;*/
-    /*-moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;*/
-    /*transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;*/
   }
 
 /*HEADER SECTION*/
@@ -175,10 +190,7 @@ a:focus {
 /*ABOUT SECTION*/
 .about-section {
   width: 100%;
-  height: 750px;
-  /*padding: 20px 0;*/
-  /*margin-top: 20px;*/
-  margin-bottom: 100px;
+  height: 440px;
   padding-left: 30px;
   padding-right: 30px;
   color: #ccc;
@@ -190,7 +202,7 @@ a:focus {
 /*PORTFOLIO SECTION*/
 .portfolio-section {
   width: 100%;
-  height: 500px;
+  height: 550px;
   padding: 20px 58% 0 0;
   margin-bottom: 100px;
   color: #E5DFAE;
@@ -213,7 +225,7 @@ a:focus {
 /*EDIT BUTTONS*/
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -237,5 +249,7 @@ a:focus {
   background-color: #30483A;
 }
 
-
+.projects {
+  text-align: center;
+}
 
